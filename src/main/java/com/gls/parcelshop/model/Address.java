@@ -1,5 +1,6 @@
 package com.gls.parcelshop.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -27,5 +28,6 @@ public class Address {
     private String consignee;
 
     @OneToOne(mappedBy = "address")
+    @JsonIgnore
     private Parcel parcel;
 }
