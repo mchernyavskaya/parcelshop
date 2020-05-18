@@ -9,7 +9,7 @@ The parcelshop is a fictional microservice for storing and retrieving parcels. P
 Me as a PO want to provide the option to get all parcels that are out for delivery for a given delivery date via a REST endpoint.
 
 #### Acceptance Criteria:
-I can retrieve all parcels for a specific delivery date 
+I can retrieve all parcels for a specific delivery date AND with a specific delivery state
 
 ## Does it work?
 
